@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: black;
+    background-image: url(./photo/back.jpg);
+    background-repeat: no-repeat;
+  }
+  
+  #container {
+    margin: 0 auto;
+  }
+  
+  #score {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+  }
+  .lives{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 150px auto;
+  }
+  .live{
+    margin: 10px;
+  }
+  #squares {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+  }
+
+  .buttons{
+    text-align: center;
+  }
+  
+  .square {
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.314);
+    border: 1px solid rgb(170, 170, 170);
+    margin-left: 5px;
+    font-size: x-large;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .square.red {
+    background-image: url(/Game/photo/fish.png);
+    color: whitesmoke;
+  }
+  span{
+    color: whitesmoke;
+    margin: 30px;
+    font-size: xx-large;
+    transition: all .3s;
+  }
+
+  #start, #stop{
+    width: 150px;
+    font-size: large;
+  }

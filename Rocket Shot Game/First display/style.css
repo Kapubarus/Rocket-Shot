@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&display=swap');
+
+body{
+    background-color: #eee;
+}
+
+#welcome{
+   color:rgb(47, 90, 139);
+   font-size: xxx-large;
+   cursor: default;
+}
+#rocket {
+    font-size: xxx-large;
+    color: chocolate;
+    cursor: default;
+}
+#onlyText{
+    font-size: x-large;
+    cursor:default;
+    color: #eee;
+    background-color: #777;
+    padding: 25px;
+    border-radius: 10px;
+    width: 70%;
+    text-indent: 30px;
+    margin: auto;
+}
+body{
+    font-family: 'Gugi', sans-serif;
+}
+#rocket,#welcome {
+    text-align: center;
+}
+.name {
+    display: flex;
+    font-size: x-large;
+    padding: 20px;
+   text-align: center;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin: auto 500px;
+}
+.name2{
+    display: flex;
+    font-size: x-large;
+    padding: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 1500px;
+    margin: auto 350px;
+}
+#enemy {
+    margin: 75px;
+    cursor: default;
+}
+#divCheck{
+    margin-bottom: 2000px;
+}
+.Kartoshka {
+    color: rgb(253, 164, 30);
+}
+.Dimastus {
+    color: rgb(141, 94, 252);
+}
+.Tiran {
+    color: rgb(75, 167, 247);
+}
+.Shalun {
+    color: rgb(47, 245, 47);
+}
+.Karasik {
+    color: rgb(194, 194, 194);
+}
+.card {
+    display: block;
+    margin-left: 0px;
+}
+.Story {
+    cursor: pointer;
+}
+.description {
+    cursor: default;
+    font-size:25px;
+    width: 320px;
+    text-align: center;
+    border:0.5px solid black;
+    background-color: #222;
+    color:whitesmoke;
+    border-radius: 15px;
+    padding: 30px;
+}
+.btnPlayClass{
+   text-align: center;
+}
+#playBtn{
+    background-color: #222;
+    width: 900px;
+    height: 90px;
+    font-family: 'Gugi', sans-serif;
+    cursor: pointer;
+    margin: auto;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #eee;
+    font-size: xxx-large;
+    margin: 100px;
+}
+.sup{
+    margin-left: 150px;
+}
